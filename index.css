@@ -1,0 +1,84 @@
+/*------------GENERAL------------*/
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Poiret One", sans-serif;
+}
+
+.content{
+    z-index: 10;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    display: flex;
+    align-self: center;
+    color: darkred;
+    font-size: 500%;
+}
+
+h1, .topbar{
+    font-family: "Spirax", sans-serif;
+}
+
+
+/*------------SECTIONS------------*/
+    /* ### HOT ### */
+.hot{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(assets/hot.jpg) no-repeat center center/cover;
+    margin: 0;
+    padding:0;
+}
+
+.hottext1, .hottext2{
+    size: 5000px;
+}
+
+
+
+.hot p{
+    color: white;
+    background-color: rgba(139, 0, 0, 0.9);
+    font-size: 150%;
+    padding: 15px;
+}
+
+
+
+    /* ### JUICY ### */
+.juicy{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(assets/juicy.jpg) no-repeat center center/cover;
+    margin: 0;
+    padding:0;
+}
+
+    /* ### COZY ### */
+.cozy{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(assets/cosy.jpg) no-repeat center center/cover;
+    margin: 0;
+    padding:0;
+}
