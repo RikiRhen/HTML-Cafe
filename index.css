@@ -1,23 +1,6 @@
-/*------------GENERAL------------*/
+                        /*------------GENERAL------------*/
 body{
     margin: 0;
-}
-
-.content{
-    z-index: 10;
-}
-
-.text{
-    margin: auto;
-    text-align: center;
-    max-width: fit-content;
-    font-size: 1.8rem;
-    color: white;
-    background-color: rgba(139, 0, 0, 0.7);
-    padding: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 40px;
 }
 
 h1{
@@ -49,6 +32,19 @@ p{
     min-width: 750px;
 }
 
+.text{
+    margin: auto;
+    text-align: center;
+    max-width: fit-content;
+    font-size: 1.8rem;
+    color: white;
+    background-color: rgba(139, 0, 0, 0.7);
+    padding: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+}
+
 ul{
     padding: 15px;
     text-align: center;
@@ -64,7 +60,7 @@ h1, .topbar{
     font-family: "Spirax", sans-serif;
 }
 
-/*------------MENU------------*/
+                        /*------------MENU------------*/
 
 .menu{
     display: flex;
@@ -90,7 +86,7 @@ h1, .topbar{
     margin-left:0;
 }
 
-/*------------TOP BAR------------*/
+                        /*------------TOP BAR------------*/
 .topbar{
     display: flex;
     justify-content: space-around;
@@ -104,8 +100,9 @@ h1, .topbar{
 }
 
 
-/*------------SECTIONS------------*/
-    /* ### HOT ### */
+                        /*------------SECTIONS------------*/
+
+                                /* ### HOT ### */
 .hot{
     height: 100vh;
     background: url(assets/hot.jpg) no-repeat center center/cover;
@@ -125,7 +122,7 @@ h1, .topbar{
     left: 150px;
 }
 
-    /* ### JUICY ### */
+                                /* ### JUICY ### */
 .juicy{
     height: 100vh;
     background: url(assets/juicy.jpg) no-repeat center center/cover;
@@ -145,7 +142,7 @@ h1, .topbar{
     left: 150px;
 }
 
-    /* ### COZY ### */
+                                /* ### COZY ### */
 .cozy{
     height: 100vh;
     background: url(assets/cosy.jpg) no-repeat center center/cover;
