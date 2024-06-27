@@ -1,4 +1,5 @@
                         /*------------GENERAL------------*/
+                        
 body{
     margin: 0;
 }
@@ -39,9 +40,7 @@ p{
     font-size: 1.8rem;
     color: white;
     background-color: rgba(139, 0, 0, 0.7);
-    padding: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 25px 40px;
     margin-bottom: 40px;
 }
 
@@ -53,7 +52,6 @@ ul{
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 1.5rem;
     max-width: 750px;
-    margin: 0 auto; 
 }
 
 h1, .topbar{
@@ -64,7 +62,7 @@ h1, .topbar{
 
 .menu{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .menuleft{
@@ -87,10 +85,12 @@ h1, .topbar{
 }
 
                         /*------------TOP BAR------------*/
+
 .topbar{
     display: flex;
     justify-content: space-around;
 }
+
 .topbar .button{
     text-decoration: none;
     font-size: 3rem;
@@ -163,8 +163,7 @@ h1, .topbar{
 
 .contactinfo{
     display: flex;
-    align-items: center;
-    
+    justify-content: center;
 }
 
 .contactleft{
